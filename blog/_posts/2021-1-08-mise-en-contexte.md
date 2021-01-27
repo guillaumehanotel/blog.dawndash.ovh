@@ -5,10 +5,5 @@ author: Guillaume HANOTEL
 location: Bordeaux
 ---
 
-# Concept 
-
-
-
-# Fonctionnalités
 
 
