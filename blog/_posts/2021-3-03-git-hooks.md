@@ -1,6 +1,6 @@
 ---
 title: Git Hooks
-date: 2020-03-03
+date: 2021-03-03
 author: Guillaume HANOTEL
 location: Bordeaux
 ---

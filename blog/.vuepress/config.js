@@ -2,15 +2,13 @@ module.exports = {
   title: 'Blog Ydays Dawndash', // Title for the site. This will be displayed in the navbar.
   plugins: [
     [
+      '@vuepress/back-to-top',
       '@vuepress/blog',
       {
         directories: [
           {
-            // Unique ID of current classification
             id: 'post',
-            // Target directory
             dirname: '_posts',
-            // Path of the `entry page` (or `list page`)
             path: '/',
           },
         ],
@@ -21,6 +19,18 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Articles', link: '/' },
-    ]
+    ],
+    footer: {
+      contact: [
+        {
+          type: 'github',
+          link: 'https://github.com/guillaumehanotel',
+        },
+        {
+          type: 'linkedin',
+          link: 'https://www.linkedin.com/in/guillaumehanotel/',
+        },
+      ],
+    },
   }
 }
